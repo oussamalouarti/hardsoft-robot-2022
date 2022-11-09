@@ -9,7 +9,7 @@ IRSensors::IRSensors(byte leftIRPin, byte middlePin, byte rightIRPin)
     pinMode(this->middlePin, INPUT);
     pinMode(this->rightIRPin, INPUT);
 }
-
+//
 bool IRSensors::isLeftOnBlack()
 {
     return (digitalRead(this->leftIRPin));

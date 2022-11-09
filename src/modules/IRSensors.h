@@ -2,7 +2,7 @@
 #include <arduino.h>
 
 class IRSensors
-{
+{//
 protected:
   byte leftIRPin, middlePin, rightIRPin;
 
